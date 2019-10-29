@@ -8,9 +8,29 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="338dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="161dp" />
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="130dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Very Very Bad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
 </androidx.constraintlayout.widget.ConstraintLayout>
